@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { DocumentationComponent } from './documentation/documentation.component';
 import { BannerComponent } from './banner/banner.component';
 import { AccentBarComponent } from './accent-bar/accent-bar.component';
+import { UpdatesComponent } from './updates/updates.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AccentBarComponent } from './accent-bar/accent-bar.component';
     FooterComponent,
     DocumentationComponent,
     BannerComponent,
-    AccentBarComponent
+    AccentBarComponent,
+    UpdatesComponent
   ],
   imports: [
     BrowserModule,
