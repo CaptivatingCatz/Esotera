@@ -11,7 +11,7 @@ export class UpdatesComponent implements OnInit {
 
   public sendEmail(e: Event) {
     e.preventDefault();
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target as HTMLFormElement, 'YOUR_USER_ID')
+    emailjs.sendForm('service_3htt5hn', 'template_hv3wpog', e.target as HTMLFormElement, 'user_FCLnGBox1GC8cBuAmNPYs')
       .then((result: EmailJSResponseStatus) => {
         console.log(result.text);
       }, (error) => {

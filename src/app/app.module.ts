@@ -10,6 +10,8 @@ import { DocumentationComponent } from './documentation/documentation.component'
 import { BannerComponent } from './banner/banner.component';
 import { AccentBarComponent } from './accent-bar/accent-bar.component';
 import { UpdatesComponent } from './updates/updates.component';
+import { RoadmapComponent } from './roadmap/roadmap.component';
+import { HighlightsComponent } from './highlights/highlights.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { UpdatesComponent } from './updates/updates.component';
     DocumentationComponent,
     BannerComponent,
     AccentBarComponent,
-    UpdatesComponent
+    UpdatesComponent,
+    RoadmapComponent,
+    HighlightsComponent
   ],
   imports: [
     BrowserModule,
