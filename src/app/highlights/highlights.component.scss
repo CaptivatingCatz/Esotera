@@ -6,7 +6,7 @@
   margin: auto;
 }
 .sectionTitle {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 .heroPose {
   height: 450px;
@@ -17,4 +17,14 @@
 }
 .body {
   background-color: black;
+}
+.ModifyDiv {
+  display: flex;
+  margin: auto;
+}
+.HighlightHeader {
+  text-align: center;
+  font-size: 2.5em;
+  background-color: black;
+  color: white;
 }

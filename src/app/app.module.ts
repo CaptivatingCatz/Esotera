@@ -12,6 +12,7 @@ import { AccentBarComponent } from './accent-bar/accent-bar.component';
 import { UpdatesComponent } from './updates/updates.component';
 import { RoadmapComponent } from './roadmap/roadmap.component';
 import { HighlightsComponent } from './highlights/highlights.component';
+import { SocialsComponent } from './socials/socials.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HighlightsComponent } from './highlights/highlights.component';
     AccentBarComponent,
     UpdatesComponent,
     RoadmapComponent,
-    HighlightsComponent
+    HighlightsComponent,
+    SocialsComponent
   ],
   imports: [
     BrowserModule,
